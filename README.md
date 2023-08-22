@@ -1,2 +1,2 @@
 # 3-tier-terraform
-Implementation of a multi tier architecture which consists of a single presentation layer, logic tier and data tier in Terraform using the AWS provider.
+Implementation of a multi tier architecture which consists of a single presentation layer, logic tier and data tier in Terraform using the AWS provider. Creation of multiple public subnets and a private subnet and providing a server to each using EC2 instances and creating a NAT Gateway to provide internet to our private subnet. Using route table and application load balancer to control incoming traffic.
